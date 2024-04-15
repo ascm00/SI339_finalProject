@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans leading-normal tracking-normal">
+    <header class="bg-blue-600 text-white">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <h1 class="text-3xl font-bold">Martin Aschermann.</h1>
+            <button id="menu-btn" class="md:hidden">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="hidden md:flex">
+                <ul id="menu" class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+                    <li><a href="#about-me" class="hover:text-gray-200">About</a></li>
+                    <li><a href="#skills" class="hover:text-gray-200">Skills</a></li>
+                    <li><a href="#education" class="hover:text-gray-200">Education</a></li>
+                    <li><a href="#experience" class="hover:text-gray-200">Experience</a></li>
+                    <li><a href="#reviews" class="hover:text-gray-200">Reviews</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="text-center py-12 mb-16 mt-16" id="about-me">
+        <div class="container mx-auto flex flex-wrap justify-center">
+            <div class="pr-4"><img src="img/1677488925646.jpeg" alt="My picture" class="mx-auto rounded-lg w-64 h-64 object-cover"></div>
+            <div class="bg-white shadow rounded-lg p-6">
+                <h2 class="text-xl font-semibold mt-4 text-left">Hello, I'm Martin. A developer from Czech Republic.</h2>
+                <p class="text-gray-600 italic text-left">A forward-thinking developer with a keen focus on innovation, <br> I am focused on exploring the intersections of technology and entrepreneurship.<br> With a background in software development, <br> I continuously seek to leverage cutting-edge technologies to solve real-world problems and create value.</p>
+            </div>
+            </div>
+    </section>
+
+    <section class="bg-blue-100 py-8" id="skills">
+        <h2 class="text-2xl font-bold text-center">Skills.</h2>
+        <div class="container mx-auto flex flex-wrap justify-center">
+            <div class="p-4 w-1/2 md:w-1/4">
+                <div class="bg-white shadow rounded-lg p-6">
+                    <img src="img/python_logo.png" alt="python logo" class="h-32 mx-auto">
+                </div>
+            </div>
+            <div class="p-4 w-1/2 md:w-1/4">
+                <div class="bg-white shadow rounded-lg p-6 text-center">
+                    <img src="img/html_css_js.png" alt="html css js logo" class="h-32 mx-auto">
+                </div>
+            </div>
+            <div class="p-4 w-1/2 md:w-1/4">
+                <div class="bg-white shadow rounded-lg p-6 text-center">
+                    <img src="img/react.png" alt="react logo" class="h-32 mx-auto">
+                </div>
+            </div>
+            <div class="p-4 w-1/2 md:w-1/4">
+                <div class="bg-white shadow rounded-lg p-6 text-center">
+                    <img src="img/java.png" alt="java logo" class="h-32 mx-auto">
+                </div>
+            </div>
+            <div class="p-4 w-1/2 md:w-1/4">
+                <div class="bg-white shadow rounded-lg p-6 text-center">
+                    <img src="img/django.png" alt="django logo" class="h-32 mx-auto">
+                </div>
+            </div>
+            <div class="p-4 w-1/2 md:w-1/4">
+                <div class="bg-white shadow rounded-lg p-6 text-center">
+                    <img src="img/sql.png" alt="sql logo" class="h-32 mx-auto">
+                </div>
+            </div>
+            <div class="p-4 w-1/2 md:w-1/4">
+                <div class="bg-white shadow rounded-lg p-6 text-center">
+                    <img src="img/php.png" alt="php logo" class="h-32 mx-auto">
+                </div>
+            </div>
+            <div class="p-4 w-1/2 md:w-1/4">
+                <div class="bg-white shadow rounded-lg p-6 text-center">
+                    <img src="img/csharp.svg" alt="C# logo" class="h-32 mx-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container mx-auto py-8" id="education">
+        <h2 class="text-2xl font-bold text-center">Education.</h2>
+        <div class="flex flex-col items-center mt-4 relative">
+            <div class="absolute w-1 bg-gray-300 h-full left-1/2 transform -translate-x-1/2"></div>
+            
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white shadow rounded-lg p-6 relative">
+                    <div class="flex justify-between">
+                        <div>
+                            <h3 class="font-semibold text-lg">Bachelor of Informatics</h3>
+                            <p class="text-sm text-gray-600">Prague University of Economics and Business, 2019-2022</p>
+                        </div>
+                        <div>
+                            <img src="img/vse.png" alt="VSE logo" class="h-12 rounded-lg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white shadow rounded-lg p-6 relative">
+                    <div class="flex justify-between">
+                        <div>
+                            <h3 class="font-semibold text-lg">Exchange student</h3>
+                            <p class="text-sm text-gray-600">Texas A&M, 2021</p>
+                        </div>
+                        <div>
+                            <img src="img/texasA&M.png" alt="Texas A&M logo" class="h-12 rounded-lg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white shadow rounded-lg p-6 relative">
+                    <div class="flex justify-between">
+                        <div>
+                            <h3 class="font-semibold text-lg">Master's degree in Knowledge and Web Technologies</h3>
+                            <p class="text-sm text-gray-600">Prague University of Economics and Business, 2022-</p>
+                        </div>
+                        <div>
+                            <img src="img/vse.png" alt="VSE logo 2" class="h-12 rounded-lg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white shadow rounded-lg p-6 relative">
+                    <div class="flex justify-between">
+                        <div>
+                            <h3 class="font-semibold text-lg">Exchange student</h3>
+                            <p class="text-sm text-gray-600">University of Michigan, 2024</p>
+                        </div>
+                        <div>
+                            <img src="img/umich.jpeg" alt="UMICH logo" class="h-12 rounded-lg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-8 mx-auto bg-blue-100" id="experience">
+        <h2 class="text-2xl font-bold text-center">Experience.</h2>
+        <div class="flex flex-col items-center justify-center mt-4">
+
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white shadow rounded-lg p-6">
+                    <div class="flex justify-between">
+                        <div>
+                            <h3 class="font-semibold text-lg">Junior Test Engineer</h3>
+                            <p class="text-sm text-gray-600">Komerční banka, 2020-2021</p>
+                        </div>
+                        <div>
+                            <img src="img/kb3.png" alt="KB logo" class="h-12 rounded-lg">
+                        </div>
+                    </div>
+                    <ul class="text-sm list-disc ml-5 pt-4">
+                        <li>Specialized in automating testing processes using Java for critical banking software applications.</li>
+                        <li>Developed and implemented robust test automation frameworks that increased testing efficiency and reduced manual testing requirements.</li>
+                        <li>Ensured high standards of reliability and security for financial transactions by meticulously identifying and addressing potential software vulnerabilities.</li>
+                        <li>Contributed to faster software release cycles and improved product quality, enhancing user trust and compliance with financial industry regulations.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white shadow rounded-lg p-6">
+                    <div class="flex justify-between">
+                        <div>
+                            <h3 class="font-semibold text-lg">Junior Frontend Developer</h3>
+                            <p class="text-sm text-gray-600">Digiteq Automotive, 2022-2023</p>
+                        </div>
+                        <div>
+                            <img src="img/da.png" alt="digiteq automotive logo" class="h-12 rounded-lg">
+                        </div>
+                    </div>
+                    <ul class="text-sm list-disc ml-5 pt-4">
+                        <li>Specialized in creating and enhancing frontend interfaces for in-car displays, focusing on usability and visual design.</li>
+                        <li>Developed robust, user-friendly applications tailored for automotive environments, ensuring optimal performance and user interaction.</li>
+                        <li>Worked closely with UX/UI designers and backend teams to implement a cohesive and seamless user experience in Škoda's vehicle line-up.</li>
+                        <li>Utilized modern web technologies and frameworks to deliver responsive and aesthetically pleasing applications directly integrated into vehicle dashboards.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white shadow rounded-lg p-6">
+                    <div class="flex justify-between">
+                        <div>
+                            <h3 class="font-semibold text-lg">Python Developer</h3>
+                            <p class="text-sm text-gray-600">Digiteq Automotive, 2023</p>
+                        </div>
+                        <div>
+                            <img src="img/da.png" alt="digiteq automotive" class="h-12 rounded-lg">
+                        </div>
+                    </div>
+                    <ul class="text-sm list-disc ml-5 pt-4">
+                        <li>Participated in a team responsible for developing an advanced automation framework used for testing hardware units in automotive settings.</li>
+                        <li>Contributed to the design and implementation of robust Python scripts that automated the testing processes, enhancing testing efficiency and reliability.</li>
+                        <li>Collaborated with cross-functional teams, including hardware engineers and QA specialists, to ensure seamless integration and functionality of testing protocols.</li>
+                        <li>Employed best practices in software development and testing to maintain a high standard of code quality and system stability.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white shadow rounded-lg p-6">
+                    <div class="flex justify-between">
+                        <div>
+                            <h3 class="font-semibold text-lg">Co-Founder & CTO</h3>
+                            <p class="text-sm text-gray-600">Solvimeet, 2024</p>
+                        </div>
+                        <div>
+                            <img src="img/parrottop.png" alt="Solvimeet logo" class="h-12 rounded-lg">
+                        </div>
+                    </div>
+                    <ul class="text-sm list-disc ml-5 pt-4">
+                        <li>Launched a startup with a mission to enhance meeting efficiency by developing a Minimum Viable Product (MVP) that provided real-time transcription, summary, and actionable next steps.</li>
+                        <li>Played a pivotal role in the design and development of the software, utilizing advanced algorithms to automate content analysis and summary generation.</li>
+                        <li>Transitioned the project focus towards consulting, offering expert advice and optimization strategies for existing meeting efficiency solutions.</li>
+                        <li>Engaged directly with clients to understand their needs and tailor solutions that integrate seamlessly with their operational workflows.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-8" id="reviews">
+        <h2 class="text-2xl font-bold text-center">Reviews.</h2>
+        <div class="container mx-auto flex flex-wrap justify-center">
+            <div class="p-4 w-full md:w-1/2">
+                <div class="bg-white shadow rounded-lg p-6">
+                    <h3 class="font-semibold text-lg">Anna Smith</h3>
+                    <p class="text-sm text-gray-600">"Martin's work on our web development project was outstanding. He not only met our expectations but exceeded them. His attention to detail and commitment to delivering high-quality work is commendable. Highly recommended!"</p>
+                </div>
+            </div>
+            <div class="p-4 w-full md:w-1/2">
+                <div class="bg-white shadow rounded-lg p-6">
+                    <h3 class="font-semibold text-lg">John Doe</h3>
+                    <p class="text-sm text-gray-600">"I was thoroughly impressed with Martin's professionalism and expertise in Python programming. His innovative solutions have significantly improved our operations. Martin is definitely someone you can count on for complex projects."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center p-4">
+        <div class="container mx-auto flex flex-col items-center justify-center space-y-4">
+            <p class="text-sm">+420 606 185 858</p>
+            <div class="flex space-x-6">
+                <a href="https://www.instagram.com/martin.aschermann2/" class="hover:text-blue-500">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/martin-aschermann-6235791a9/" class="hover:text-blue-500">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/ascm00" class="hover:text-gray-400">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <p>© 2024 Martin Aschermann</p>
+        </div>
+    </footer>
+</body>
+</html>
