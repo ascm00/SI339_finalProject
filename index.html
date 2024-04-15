@@ -12,22 +12,22 @@
 
 </head>
 <body class="bg-gray-100 text-gray-800 font-sans leading-normal tracking-normal">
-    <header class="bg-blue-600 text-white relative">
+    <header class="bg-blue-600 text-white">
         <div class="container mx-auto flex justify-between items-center py-4 px-6">
             <h1 class="text-3xl font-bold">Martin Aschermann.</h1>
             <button id="menu-btn" class="md:hidden text-xl">
                 <i class="fas fa-bars"></i>
             </button>
+            <nav>
+                <ul id="menu" class="hidden flex-col md:flex md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+                    <li><a href="#about-me" class="hover:text-gray-200">About Me</a></li>
+                    <li><a href="#skills" class="hover:text-gray-200">Skills</a></li>
+                    <li><a href="#education" class="hover:text-gray-200">Education</a></li>
+                    <li><a href="#experience" class="hover:text-gray-200">Experience</a></li>
+                    <li><a href="#reviews" class="hover:text-gray-200">Reviews</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="hidden absolute w-full bg-blue-600 z-10" style="top: 100%; left: 0;">
-            <ul id="menu" class="flex flex-col space-y-4 p-4">
-                <li><a href="#about-me" class="hover:text-gray-200">About Me</a></li>
-                <li><a href="#skills" class="hover:text-gray-200">Skills</a></li>
-                <li><a href="#education" class="hover:text-gray-200">Education</a></li>
-                <li><a href="#experience" class="hover:text-gray-200">Experience</a></li>
-                <li><a href="#reviews" class="hover:text-gray-200">Reviews</a></li>
-            </ul>
-        </nav>
     </header>
 
     <section class="text-center py-12 mb-16 mt-16" id="about-me">
