@@ -32,13 +32,21 @@
     </header>
 
     <section class="text-center py-12 mb-16 mt-16" id="about-me">
-        <div class="container mx-auto flex flex-wrap justify-center">
-            <div class="pr-4"><img src="img/1677488925646.jpeg" alt="My picture" class="mx-auto rounded-lg w-64 h-64 object-cover"></div>
-            <div class="bg-white shadow rounded-lg p-6">
+        <div class="container mx-auto flex flex-wrap justify-center items-stretch"> <!-- Changed items-center to items-stretch -->
+            <div class="flex-none w-full md:w-auto md:flex-initial pr-4">
+                <img src="img/1677488925646.jpeg" alt="My picture" class="rounded-lg w-64 h-64 object-cover">
+            </div>
+    
+            <div class="flex-auto w-full md:max-w-2xl bg-white shadow rounded-lg p-6" style="height: 256px;"> <!-- Adjusted max width and added inline style for height -->
                 <h2 class="text-xl font-semibold mt-4 text-left">Hello, I'm Martin. A developer from Czech Republic.</h2>
-                <p class="text-gray-600 italic text-left">A forward-thinking developer with a keen focus on innovation, <br> I am focused on exploring the intersections of technology and entrepreneurship.<br> With a background in software development, <br> I continuously seek to leverage cutting-edge technologies to solve real-world problems and create value.</p>
+                <p class="text-gray-600 italic text-left">
+                    A forward-thinking developer with a keen focus on innovation,
+                    I am focused on exploring the intersections of technology and entrepreneurship.
+                    With a background in software development,
+                    I continuously seek to leverage cutting-edge technologies to solve real-world problems and create value.
+                </p>
             </div>
-            </div>
+        </div>
     </section>
 
     <section class="bg-blue-100 py-8" id="skills">
