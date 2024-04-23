@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martin Aschermann</title>
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
@@ -18,6 +18,7 @@
             <h1 class="text-3xl font-bold">Martin Aschermann</h1>
             <button id="menu-btn" class="md:hidden text-xl pr-2">
                 <i class="fas fa-bars"></i>
+                <span class="sr-only">Menu</span>
             </button>
             <nav>
                 <ul id="menu" class="hidden flex-col md:flex md:flex-row space-y-4 md:space-y-0 md:space-x-4">
@@ -32,7 +33,7 @@
         </div>
     </header>
 
-    <section class="text-center py-12 mb-16 mt-16 fade-in" id="about-me">
+    <section class="text-center py-12 mb-16 mt-16 fade-in" id="about-me" tabindex="0">
         <div class="container mx-auto flex flex-wrap justify-center items-stretch">
             <div class="flex-none w-full md:w-auto md:flex-initial pr-4 fade-in">
                 <img src="img/1677488925646.jpeg" alt="My picture" class="rounded-lg w-64 h-64 object-cover">
@@ -50,7 +51,7 @@
         </div>
     </section>
 
-    <section class="bg-blue-100 py-8 fade-in" id="skills">
+    <section class="bg-blue-100 py-8 fade-in" id="skills" tabindex="0">
         <h2 class="text-2xl font-bold text-center">Skills</h2>
         <div class="container mx-auto flex flex-wrap justify-center">
             <div class="p-4 w-full sm:w-1/2 md:w-1/4 fade-in">
@@ -96,7 +97,7 @@
         </div>
     </section>
 
-    <section class="container mx-auto py-8 fade-in" id="education">
+    <section class="container mx-auto py-8 fade-in" id="education" tabindex="0">
         <h2 class="text-2xl font-bold text-center">Education</h2>
         <div class="flex flex-col items-center mt-4 relative">
             <div class="absolute w-1 bg-gray-300 h-full left-1/2 transform -translate-x-1/2"></div>
@@ -153,7 +154,7 @@
     
 
 
-    <section class="py-8 mx-auto bg-blue-100 fade-in" id="experience">
+    <section class="py-8 mx-auto bg-blue-100 fade-in" id="experience" tabindex="0">
         <h2 class="text-2xl font-bold text-center">Experience</h2>
         <div class="flex flex-col items-center justify-center mt-4">
 
@@ -236,7 +237,7 @@
         </div>
     </section>
 
-    <section class="py-8 mx-auto bg-gray fade-in" id="projects">
+    <section class="py-8 mx-auto bg-gray fade-in" id="projects" tabindex="0">
         <h2 class="text-2xl font-bold text-center">Projects</h2>
         <div class="flex flex-col items-center justify-center mt-4">
     
@@ -278,7 +279,7 @@
         </div>
     </section>
 
-    <section class="py-8 bg-blue-100" id="reviews">
+    <section class="py-8 bg-blue-100" id="reviews" tabindex="0">
         <h2 class="text-2xl font-bold text-center">Reviews</h2>
         <div class="container mx-auto flex flex-wrap justify-center">
             <div class="p-4 w-full md:w-1/2">
@@ -302,12 +303,15 @@
             <div class="flex space-x-6">
                 <a href="https://www.instagram.com/martin.aschermann2/" class="hover:text-blue-500">
                     <i class="fab fa-instagram"></i>
+                    <span class="sr-only">instagram</span>
                 </a>
                 <a href="https://www.linkedin.com/in/martin-aschermann-6235791a9/" class="hover:text-blue-500">
                     <i class="fab fa-linkedin-in"></i>
+                    <span class="sr-only">linkedin</span>
                 </a>
                 <a href="https://github.com/ascm00" class="hover:text-gray-400">
                     <i class="fab fa-github"></i>
+                    <span class="sr-only">github</span>
                 </a>
             </div>
             <p>© 2024 Martin Aschermann</p>
