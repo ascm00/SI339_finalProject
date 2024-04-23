@@ -4,7 +4,6 @@
 }
 
 .skip:focus {
-    font: size 20px;
     position: fixed;
     left: 50%;
     background-color: white;
